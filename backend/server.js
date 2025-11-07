@@ -18,7 +18,16 @@ import paymentRouter from "./routes/paymentRoute.js";      // ✅ Payment Routes
 const app = express();
 const port = process.env.PORT || 4000;
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    'https://goodwill.caps-hub.com',
+    'https://gw-admin.caps-hub.com',
+    // Allow localhost for development
+    'http://localhost:5173',
+    'http://localhost:5174'
+  ],
+  credentials: true
+}));
 
 // ✅ Connect Database and Cloudinary
 connectDB();
