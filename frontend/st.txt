@@ -1,0 +1,41 @@
+// project-root/
+// ├── src/
+// │   │── assets/
+// │   │   ├── assets.js
+// │   ├── backend/        
+// │   │   ├── config/
+// │   │   ├── controllers/
+// │   │   ├── middleware/
+// │   │   ├── models/
+// │   │   ├── routes/
+// │   │   ├── utils/
+// │   │   ├── server.js  
+// │   │   ├── package.json
+// │   ├── components/
+// │   │   ├── Bannerjsx
+// │   │   ├── CategoryMenu.jsx
+// │   │   ├── Footer.jsx
+// │   │   ├── Header.jsx
+// │   │   ├── Navbar.jsx
+// │   │   ├── RelatedFacilities.jsx
+// │   │   ├── TopFacilities.jsx
+// │   ├── context/
+// │   │   ├── AppContext.jsx
+// │   │   ├── AuthContext.jsx
+// │   ├── pages/
+// │   │   ├── Admin/
+// │   |   │   │── AddFacilities.jsx
+// │   |   │   │── AllReservation.jsx
+// │   |   │   │── Dashboard.jsx
+// │   |   │   │── Facilities.jsx
+// │   │   ├── About.jsx
+// │   │   ├── Contact.jsx
+// │   │   ├── Facilities.jsx
+// │   │   ├── Home.jsx
+// │   │   ├── Login.jsx
+// │   │   ├── MyProfile.jsx
+// │   │   ├── MyReservation.jsx
+// │   │   ├── Reservation.jsx
+// ├── package.json    
+// ├── App.jsx
+// vite.config.js
